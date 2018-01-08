@@ -12,6 +12,7 @@ template <typename T>
 /// - void pop_back() - elimina ultimul element din vector
 /// - const_reference back() const - returneaza o referinta la ultimul element din vector
 /// - const_reference at(size_type n) const - returneaza o referinta la elementul de pe pozitia n
+/// Un alt branch
 
 class Stack
 {
@@ -78,7 +79,6 @@ int main()
     cout << "\nElimin ultimul element din stiva:\n";
     stiva1.pop();
     stiva1.afisare();
-
 
 
     /// Stiva cu elemente de tip int
